@@ -2,7 +2,9 @@
 ## Objective:
 The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
 
-[Running the project](https://github.com/dheerajd5/blockchain-iot-project-/blob/main/RUN.md)
+[Demo of the project](https://www.youtube.com/playlist?list=PLLLP8VwPMc6rl767dfvVoxLUbXBNCG8rM)
+
+[How to run the project yourself](https://github.com/dheerajd5/blockchain-iot-project-/blob/main/RUN.md)
 
 More details about the project are present in the [Details.md](https://github.com/dheerajd5/blockchain-iot-project-/blob/main/DETAILS.md) file.
 
@@ -26,10 +28,8 @@ Set up a local blockchain using IBM Hyperledger to securely store the data trans
 Implemented smart contracts within Hyperledger to validate and manage data storage transactions.
 Ensured data integrity and security through blockchain's immutable ledger features.
 
-### 5. React Front-End:
-Created a responsive web interface using React to visualize the stored IoT data.
+### 5. Web Inteface:
+Created a responsive web interface using React with backend to visualize the stored IoT data.
 Pulled data from the blockchain and displayed it in a user-friendly format (e.g., charts, tables, real-time updates).
 Include features for data analysis, filtering, and reporting.
-
-## Running The Project:
 
