@@ -10,6 +10,9 @@
 ## Simulation Setup
 
 1. Create a simulation in Cooja, with one border router and multiple sensor nodes.
+     ```bash
+			sudo ant run
+     ``` 
 
 2. Tunslip6 Commands for border routers
     ```bash
@@ -59,16 +62,27 @@
 	./network.sh deployCC -ccn dheeraj -ccp ../asset-transfer-basic/cc4-dheeraj/ -ccl node
 	./network.sh deployCC -ccn farzan -ccp ../asset-transfer-basic/cc5-farzan/ -ccl node
     ```
-
-9. Set up Hyperledger Rest API (from rest-api-typescript)
-
-10. Now the blockchain is set up.
+9. Setting up Hyperledger Rest API[from rest-api-typescript directory]
+```
+		npm install
+		npm run build
+		TEST_NETWORK_HOME=$HOME/fabric-samples/test-network npm run generateEnv
+		export REDIS_PASSWORD=$(uuidgen)
+		npm run start:redis
+		npm run start:dev
+```
+10. Setting up Hyperledger Blockchain Explorer[from explorer directory]
+```
+cp -r ../fabric-samples/test-network/organizations/ .
+docker-compose up 
+```
+11. Now the blockchain is set up.
 
 ---
 
 ## Backend Code
 
-11. Run the backend code in the `src` folder using:
+12. Run the backend code in the `src` folder using:
     ```bash
     npm i && node index.js
     ```
@@ -81,7 +95,7 @@
 
 ## Frontend Code
 
-12. Run the frontend code in the `frontend` folder using:
+13. Run the frontend code in the `frontend` folder using:
     ```bash
     npm i && npm start
     ```
