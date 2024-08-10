@@ -33,3 +33,7 @@ Org3 - peer endpoint on port **11051**
 Org4 - peer endpoint on port **12051**
 
 Org5 - peer endpoint on port **13051**
+
+## Hyperledger Explorer
+
+This is a dashboard tool to see and visualize the blockchain in a more clear way, it helps us to see exactly how many peers are up and how many orgs are there, we can also check different information such as the block transactions and the blockchain itself.
