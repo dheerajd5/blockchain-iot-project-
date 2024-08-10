@@ -28,7 +28,7 @@ Set up a local blockchain using IBM Hyperledger to securely store the data trans
 Implemented smart contracts within Hyperledger to validate and manage data storage transactions.
 Ensured data integrity and security through blockchain's immutable ledger features.
 
-### 5. Web Inteface:
+### 5. Web Interface:
 Created a responsive web interface using React with backend to visualize the stored IoT data.
 Pulled data from the blockchain and displayed it in a user-friendly format (e.g., charts, tables, real-time updates).
 Include features for data analysis, filtering, and reporting.
