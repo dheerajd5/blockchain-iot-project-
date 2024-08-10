@@ -1,6 +1,6 @@
 # IoT Device Simulation and Blockchain Integration for Secure Data Management
 ## Objective:
-The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
+The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger Fabric**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
 
 [Demo of the project](https://www.youtube.com/playlist?list=PLLLP8VwPMc6rl767dfvVoxLUbXBNCG8rM)
 
@@ -23,9 +23,9 @@ Adjusted mobility patterns to reflect realistic IoT device deployment scenarios 
 Developed a JavaScript application to manage the transmission of simulated data from IoT devices to the border router.
 The border router will act as a gateway, forwarding data packets to the local blockchain.
 
-### 4. IBM Hyperledger Blockchain:
-Set up a local blockchain using IBM Hyperledger to securely store the data transmitted from IoT devices.
-Implemented smart contracts within Hyperledger to validate and manage data storage transactions.
+### 4. IBM Hyperledger Fabric Blockchain:
+Set up a local blockchain using IBM Hyperledger Fabric to securely store the data transmitted from IoT devices.
+Implemented smart contracts within Hyperledger Fabric to validate and manage data storage transactions.
 Ensured data integrity and security through blockchain's immutable ledger features.
 
 ### 5. Web Interface:
