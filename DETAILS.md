@@ -1,11 +1,14 @@
-
 # 1. Contiki-NG Cooja
 All sensor files are written in C, they all just output random values for their respective sensors, for ex. speed will be random within a range of 0-80.
 Mobility is introduced separately using a Cooja mobility plugin which takes in .dat files for the exact details of the movement for each node.
 ## Sensor Network Diagram
 ![Sensor Node Network Diagram](https://github.com/user-attachments/assets/65998828-d9b8-4f78-a245-001719a3c9d1)
 
-# 2. IBM Hyperledger Blockchain
+
+# 2. Border Routers
+There are 5 border routers, one for each organization. They are written in javascript and basically act as way to send data to the blockchain, they collect their org specific data and then package it and send it up to the hyperledger fabric rest api.
+
+# 3. IBM Hyperledger Blockchain
 ## Environment
 We've created 5 organizations to stimulate 5 different entities that want their data to be stored on the blockchain. In our case the 5 organizations are `dheeraj,farzan,rohit,easwar,nitin` their respective pairs include vehicle tracking, fuel and energy efficieny stats and so on.
 
