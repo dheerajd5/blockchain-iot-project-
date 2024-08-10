@@ -1,4 +1,4 @@
-# IoT Device Simulation and Blockchain Integration for Secure Data Management
+# IoT Device Simulation and Blockchain Integration for Vehicle Fleet Management
 ## Objective:
 The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger Fabric**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
 
@@ -11,13 +11,13 @@ More details about the project are present in the [Details.md](https://github.co
 ## Components:
 ### 1. Contiki-NG for IoT Simulation:
 Utilized Contiki-NG to simulate readings and data generation from various IoT devices.
-Devices could include sensors for environmental data (e.g., temperature, humidity) or any custom data relevant to the project.
+Devices could include sensors for vehicle data such as fuel levels, coolant levels, speed, location and so on.
 Ensured the simulation mimics real-world conditions for data accuracy.
 
 ### 2. Cooja for Mobility Simulation:
 Integrated Cooja to simulate the mobility of IoT devices within a network.
 Used Cooja’s visualization tools to track device movement and interaction in a virtual environment.
-Adjusted mobility patterns to reflect realistic IoT device deployment scenarios (e.g., smart cities, industrial IoT).
+Adjusted mobility patterns to reflect realistic IoT device deployment scenarios, i.e in traffic and general random movement of cars.
 
 ### 3. JavaScript for Data Transmission:
 Developed a JavaScript application to manage the transmission of simulated data from IoT devices to the border router.
