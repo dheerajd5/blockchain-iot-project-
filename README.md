@@ -2,6 +2,8 @@
 ## Objective:
 The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
 
+More details about the project are present in the [Details.md](url) file.
+
 ## Components:
 ### 1. Contiki-NG for IoT Simulation:
 Utilized Contiki-NG to simulate readings and data generation from various IoT devices.
@@ -26,3 +28,6 @@ Ensured data integrity and security through blockchain's immutable ledger featur
 Created a responsive web interface using React to visualize the stored IoT data.
 Pulled data from the blockchain and displayed it in a user-friendly format (e.g., charts, tables, real-time updates).
 Include features for data analysis, filtering, and reporting.
+
+## Running The Project:
+
