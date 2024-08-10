@@ -2,6 +2,8 @@
 ## Objective:
 The project aims to simulate a network of IoT devices using **Contiki-NG**, visualize their mobility and interactions with **Cooja**, and securely store the generated data on a local blockchain built with **IBM Hyperledger**. The data will be transmitted via a border router using **JavaScript** and displayed on a **React-based front-end**.
 
+[How to run the project.]([url](https://github.com/dheerajd5/blockchain-iot-project-/blob/main/RUN.md))
+
 More details about the project are present in the [Details.md](url) file.
 
 ## Components:
