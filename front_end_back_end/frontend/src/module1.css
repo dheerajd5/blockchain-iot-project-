@@ -1,0 +1,58 @@
+#mod{
+    display : flex;
+    flex-direction : row;
+    overflow: scroll;
+}
+
+.dashboard {
+    background-color: #ffffff;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+  }
+  
+  
+
+  .chart-container {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 90vh; /* Increase height for top-and-bottom arrangement */
+    width: 80vw;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+  }
+  
+
+  .no-scroll-required {
+    overflow: hidden; /* Hide the overflow */
+  }
+
+  .scroll-required {
+    overflow: scroll; /* Hide the overflow */
+  }
+
+  
+  
+  .scatter {
+    background-color: #2a2a2a;
+    border-radius: 50px;
+  }
+  
+  .line {
+    background-color: #333333;
+  }
+  
+  .info-container {
+    position: fixed;
+    margin-top: 190vh;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+  }
+  

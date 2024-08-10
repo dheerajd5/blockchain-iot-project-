@@ -1,0 +1,49 @@
+/* Sidebar.css */
+.sidebar-container {
+    position: fixed;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 250px;
+  }
+  
+  .sidebar-content {
+    padding: 20px;
+  }
+  
+  /* module1.css */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chart {
+    flex: 1;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .info-container {
+    position: fixed;
+    margin-top: 40%;
+    padding: 20px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+  }
+  
